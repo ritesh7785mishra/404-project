@@ -1,1 +1,61 @@
+/*==============
+typography
+==============*/
+body{
+    font-family: 'Space Mono', monospace;
+    font-weight:400;
+    color:#4f4f4f;
+}
+.title h2{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform:uppercase;
+    letter-spacing:-1.7px;
+    color: #333333;
 
+}
+
+h1{
+    font-family:'Space Mono', monospace;
+    font-weight:700;
+    font-size: 64px;
+    color:#333333;
+}
+
+.footer-text{
+    text-align:center;
+    color:#BDBDBD;
+}
+.tiny-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight:500;
+    
+}
+strong{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight: 700;
+    
+}
+
+a{
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+
+
+
+
+.container{
+    max-width: 520px;
+    padding: 1em;
+}
+
+img{
+    max-width:100%;
+}
