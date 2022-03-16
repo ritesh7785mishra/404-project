@@ -5,6 +5,7 @@ body{
     font-family: 'Space Mono', monospace;
     font-weight:400;
     color:#4f4f4f;
+    font-size:18px;
 }
 .title h2{
     font-family: Inconsolata;
@@ -19,20 +20,22 @@ body{
 }
 
 h1{
+
     font-family:'Space Mono', monospace;
     font-weight:700;
-    font-size: 64px;
+    font-size: 48px;
     color:#333333;
 }
 
 .footer-text{
     text-align:center;
+    
     color:#BDBDBD;
 }
 .tiny-text{
     font-family: 'Montserrat', sans-serif;
     font-size:14px;
-    font-weight:500;
+    font-weight:700;
     
 }
 strong{
@@ -45,17 +48,82 @@ strong{
 a{
     text-decoration: none;
     text-transform:uppercase;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing: -0.035em;
 }
 
-
-
-
-
+/*==============
+Layout
+==============*/
 .container{
-    max-width: 520px;
-    padding: 1em;
+
+    
+    padding:1em;
+    border-radius:8px;
+    display:flex;
+    flex-direction:column; 
+    justify-content:space-between;
+    
+}
+h2{
+    padding:0;
+    margin:0;
+    
 }
 
 img{
     max-width:100%;
+}
+
+a{
+    background:#333333;
+    padding: 1em 2.5em;
+    color:#fff;
+
+}
+.tiny-text{
+    margin-top: 10em;
+    
+    margin-bottom:0;
+}
+
+p{
+    margin-bottom: 5em;
+}
+
+
+@media (min-width: 575px){
+    h1{
+        font-size:64;
+    }
+
+    p,
+    h2{
+        font-size:24px;
+    }
+    .wrapper{
+        width:45%;
+    }
+    section{
+        width:45%;
+       
+    }
+    .container{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        padding:1.5em;
+    }
+    .main{
+        display:flex;
+        
+        justify-content:space-around;
+
+    }
+
+    img{
+       
+        max-width:100%;
+    }
 }
